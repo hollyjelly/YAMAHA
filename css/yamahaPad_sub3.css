@@ -1,0 +1,159 @@
+/* 헤더 */
+div.hdrWrap{
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+}
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 40px;
+    overflow: hidden;
+}
+div.hdrWrap>div.header>div.hdrTop>div.btn{
+    display: block;
+    font-size: 28px;
+}
+div.hdrWrap>div.header>div.hdrTop>h1{
+    font-size: 35px;
+}
+div.hdrWrap>div.header>div.hdrTop>ul.btn{
+    font-size: 28px;
+}
+/* 메인 */
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 320px 0px 160px;
+}
+div.mainWrap>div.main>h2{
+    font-size: 35px;
+    line-height: 40px;
+    height: 80px;
+    width: calc(100% / 8 * 3);
+}
+/* 컨텐츠 */
+div.cntWrap>div.content.cnt01{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    font-size: 35px;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts{
+    font-size: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts{
+    font-size: 20px;
+}
+/* 배너 */
+div.bnrWrap>div.banner{
+    position: relative;
+}
+div.bnrWrap>div.banner>ul.txtBox::after{
+    content: 'more +';
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 15%;
+    margin-top: 10px;
+}
+div.bnrWrap>div.banner>ul.txtBox>li:nth-child(4)~li{
+    display: none;
+}
+div.bnrWrap>div.banner>ul.txtBox>li{
+    font-size: 18px;
+    text-align: center;
+}
+/* 푸터 */
+div.ftrWrap>div.footer{
+    padding: 80px 0px 40px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.menu{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.country{
+    margin-top: 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.country>li{
+    font-size: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>p{
+    font-size: 13.5px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.nav>li{
+    font-size: 13.5px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight>ul.sns>li>h4{
+    height: 40px;
+    right: 50px;
+}
+/* 네비박스 */
+div.navBox{
+    display: block;
+    width: 0vw;
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    color: #fff;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+div.navBox>div.top{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 60px;
+}
+div.navBox>div.top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.navBox>div.top>div.logo{
+    text-transform: uppercase;
+    float: left;
+    font-weight: 700;
+    width: calc(100% / 8 * 4);
+    text-align: center;
+}
+div.navBox>div.top>div.btn{
+    float: left;
+    line-height: 40px;
+    width: calc(100% / 8 * 2);
+    line-height: 60px;
+}
+div.navBox>div.top>div.btn:nth-child(1){
+    text-align: left;
+}
+div.navBox>div.top>div.btn:nth-last-child(1){
+    float: right;
+    text-align: right;
+}
+div.navBox>div.bottom{
+    border: 30px solid #301B3F;
+    height: 96vh;
+}
+div.navBox>div.bottom>ul.nav{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 200px;
+}
