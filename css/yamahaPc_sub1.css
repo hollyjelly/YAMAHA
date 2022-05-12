@@ -1,5 +1,6 @@
 body{
   position: relative;
+  overflow-x: hidden;
 }
 /* 헤더 */
 div.hdrWrap{
@@ -8,7 +9,7 @@ div.hdrWrap{
   position: fixed;
   left: 0;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   z-index: 5;
 }
@@ -285,7 +286,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.images>div.image.i2{
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../image/product/product03.PNG');
-  right: -140px;
+  right: 0;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.images>div.imgBg{
     background-color: #3b415b;
@@ -315,7 +316,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)>div.images>di
     bottom: 0;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.images>div.imgBg{
-    right: 0px;
+    right: 25%;
     bottom: -45px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.images>div.imgBg::before{
@@ -345,11 +346,11 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
     transition: opacity 3s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)>div.texts{
-  margin-left: 100px;
+  margin-left: 5%;
   opacity: 0;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.texts{
-  margin-left: 75px;
+  margin-left: 5%;
   opacity: 0;
   float: left;
 }

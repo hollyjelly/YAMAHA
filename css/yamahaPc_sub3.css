@@ -208,6 +208,8 @@ div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>h3{
   font-weight: 700;
   text-align: center;
   line-height: 80px;
+  height: 80px;
+  overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section div.article:hover{
   box-shadow: 4px 4px 8px #333;
