@@ -121,11 +121,11 @@ $(function(){
             });
 
             
-            hdbar.click(function(){
+            hdbar.eq(0).click(function(){
                 mn.css({width:'100vw'});
             });
 
-            mnbar.click(function(){
+            mnbar.eq(0).click(function(){
                 mn.css({width:'0'});
             });
 
@@ -165,11 +165,11 @@ $(function(){
             
                 });
 
-                hdbar.click(function(){
+                hdbar.eq(0).click(function(){
                     mn.css({width:'100vw'});
                 });
     
-                mnbar.click(function(){
+                mnbar.eq(0).click(function(){
                     mn.css({width:'0'});
                 });
             
