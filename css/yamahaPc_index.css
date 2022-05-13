@@ -219,6 +219,7 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr>div.imgBg{
   background-color: #301B3F;
   width: calc(100% / 6 * 5);
   height: 600px;
+  color: transparent;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr>div.imgBg.i1{
   top: -40px;
