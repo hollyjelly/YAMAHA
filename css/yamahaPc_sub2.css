@@ -103,7 +103,6 @@ div.mnWrap>div.main>div.texts>h2{
 /* 컨텐츠공통 */
 div.cntWrap{
   background-color: #e1e0d8;
-  overflow: hidden;
 }
 div.cntWrap>div.content{
   width: 80%;
