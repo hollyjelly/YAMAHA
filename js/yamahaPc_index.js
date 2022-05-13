@@ -132,6 +132,7 @@ $(function(){
         }else{
 
             gray.css({filter:'grayscale(0)'})
+            gr.css({marginLeft:'-41.33%'});
 
             btn.first().click(function(){
 
@@ -143,7 +144,7 @@ $(function(){
                 },500,function(){
             
                     gr.find('.article:first').appendTo(gr);
-                    gr.css({marginLeft:'-33.33%'});
+                    gr.css({marginLeft:'-41.33%'});
             
             
                 });
@@ -160,7 +161,7 @@ $(function(){
                 },500,function(){
             
                     gr.find('.article:last').prependTo(gr);
-                    gr.css({marginLeft:'-33.33%'});
+                    gr.css({marginLeft:'-41.33%'});
             
             
                 });
