@@ -4,6 +4,9 @@ div.hdrWrap{
     position: fixed;
     width: 100vw;
     height: 40px;
+    left: 0;
+    top: 0;
+    z-index: 5;
 }
 div.hdrWrap>div.header{
     width: 90%;
@@ -13,14 +16,17 @@ div.hdrWrap>div.header{
     overflow: hidden;
 }
 div.hdrWrap>div.header>div.hdrTop>div.btn{
-    display: block;
+    opacity: 1;
     font-size: 28px;
+    width: calc(100% / 8 * 1);
 }
 div.hdrWrap>div.header>div.hdrTop>h1{
     font-size: 35px;
+    width: calc(100% / 8 * 6);
 }
 div.hdrWrap>div.header>div.hdrTop>ul.btn{
     font-size: 28px;
+    width: calc(100% / 8 * 1);
 }
 /* 메인 */
 div.mainWrap>div.main{
