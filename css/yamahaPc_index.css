@@ -424,6 +424,7 @@ div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.view>div.artGroup>div.ar
   border-radius: 20px;
   margin-top: 45px;
   color: transparent;
+  transition: all 0.5s;
 }
 div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.view>div.artGroup>div.article:nth-child(3)>div.image{
   height: 400px;
