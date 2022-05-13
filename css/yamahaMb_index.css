@@ -17,7 +17,7 @@ div.hdrWrap>div.header>div.hdrTop>ul.btn{
   width: calc(100% / 4 * 0.5);
   text-align: right;
 }
-div.hdrWrap>div.header>div.hdrTop>ul.btn>li:nth-child(2){
+div.hdrWrap>div.header>div.hdrTop>ul.btn>li:nth-child(1){
   display: none;
 }
 /* 메인 */

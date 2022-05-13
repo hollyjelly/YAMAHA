@@ -12,11 +12,12 @@ $(function(){
     var hdbar = $('div.hdrWrap>div.header>div.hdrTop>div.btn');
     var mnbar = $('div.navBox>div.top>div.btn');
     var mn = $('div.navBox');
-    hdbar.click(function(){
+
+    hdbar.eq(0).click(function(){
         mn.css({width:'100vw'});
     });
 
-    mnbar.click(function(){
+    mnbar.eq(0).click(function(){
         mn.css({width:'0'});
     });
 
