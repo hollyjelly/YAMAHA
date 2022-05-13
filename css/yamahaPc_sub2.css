@@ -370,12 +370,12 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup::after{
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
   float: left;
   opacity: 0%;
-  transition: all 0.7s;
   width: calc(100% / 6 - 20px);
   margin-left: 20px;
   cursor: pointer;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
+  transition: all 0.7s;
   color: transparent;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(1){
