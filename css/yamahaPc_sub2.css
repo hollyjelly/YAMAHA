@@ -217,10 +217,10 @@ div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.artGroup{
   transition: opacity 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section div.artGroup{
-  width: 100%;
+  width: 80%;
   top: 120px;
   position: absolute;
-  left: 260px;
+  left: 25%;
   opacity: 0%;
 }
 div.cntWrap>div.content.cnt01>div.section div.artGroup::after{
