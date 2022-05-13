@@ -72,6 +72,9 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.images>div.image{
   height: 300px;
   width: 90%;
 }
+div.cntWrap>div.content.cnt02>div.section>div.article>div.images>div.image.i2{
+  right: -5%;
+}
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
   width: 100%;
   height: 190px;

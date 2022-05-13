@@ -184,7 +184,6 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr{
   float: right;
   position: relative;
   box-shadow: 2px 2px 8px #222;
-  color: transparent;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)>div.imageGr{
   margin-top: -40px;
@@ -199,6 +198,9 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr>div.image{
   height: 600px;
   z-index: 2;
   position: relative;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr>div.image>span{
+  color: transparent;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.imageGr>div.image.i1{
   background-size: cover;
