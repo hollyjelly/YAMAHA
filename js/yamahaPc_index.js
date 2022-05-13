@@ -139,7 +139,7 @@ $(function(){
 
                 gr.stop().animate({
             
-                    marginLeft : '-93%'
+                    marginLeft : '-100%'
                     
                 },500,function(){
             
@@ -156,7 +156,7 @@ $(function(){
             
                 gr.stop().animate({
             
-                    marginLeft : '28%'
+                    marginLeft : '20%'
                     
                 },500,function(){
             
