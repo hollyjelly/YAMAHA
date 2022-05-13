@@ -338,6 +338,7 @@ div.cntWrap>div.content.cnt02>div.header>h2{
 }
 div.cntWrap>div.content.cnt02>div.section{
   position: relative;
+
 }
 div.cntWrap>div.content.cnt02>div.section div.design1{
   width: calc(100% / 12);
@@ -358,6 +359,8 @@ div.cntWrap>div.content.cnt02>div.section>div.artView{
   position: absolute;
   left: 25%;
   overflow: hidden;
+  transition: all 0.5s;
+
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
   width: 470%;
@@ -373,6 +376,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
   width: calc(100% / 6 - 20px);
   margin-left: 20px;
   cursor: pointer;
+  transition: all 0.7s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
   transition: all 0.7s;
