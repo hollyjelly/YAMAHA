@@ -47,6 +47,16 @@ $(function(){
 
         }else if(window.innerWidth > 420){
 
+            con1.mouseover(function(){
+                op1.css({opacity:'1'});
+                op2.css({opacity:'1'});
+            });
+            con2.mouseover(function(){
+                op1.css({opacity:'1'});
+                op2.css({opacity:'1'});
+        
+            });
+
             $(window).scroll(function(){
                 var scro = $(this).scrollTop();
                 if(scro>0){

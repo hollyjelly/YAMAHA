@@ -31,8 +31,8 @@ $(function(){
             });
 
 
-        }else if(window.innerWidth > 420){
-                        
+        }else if(window.innerWidth <= 1024 && window.innerWidth > 420){
+
             hdbar.click(function(){
                 mn.css({width:'100vw'});
             });
@@ -44,7 +44,7 @@ $(function(){
         }else{
 
             con1.mouseover(function(){
-                op1.css({opacity:'1',width:'90%'});
+                op1.css({opacity:'1',width:'85%'});
             });
             con2.eq(1).mouseover(function(){
                 wd2.eq(0).css({width:'90%',opacity:'1'});

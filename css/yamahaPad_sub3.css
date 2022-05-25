@@ -72,6 +72,9 @@ div.bnrWrap>div.banner>ul.txtBox::after{
     margin: auto;
     width: 15%;
     margin-top: 10px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
 }
 div.bnrWrap>div.banner>ul.txtBox>li:nth-child(4)~li{
     display: none;

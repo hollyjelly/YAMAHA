@@ -41,6 +41,7 @@ div.cntWrap>div.content.cnt01>div.header>h2{
 div.cntWrap>div.content.cnt01>div.section>div.article>div.images>div.image{
   top: -95px;
   height: 280px;
+  width: 85%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.images>div.image>div.ovrGrid{
   height: 280px;

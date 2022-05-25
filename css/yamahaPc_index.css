@@ -259,7 +259,7 @@ div.cntWrap.cntWrap02{
 div.cntWrap.cntWrap02>div.content.cnt02{
   color: #fff;
   position: relative;
-  padding: 120px 0px 160px;
+  padding: 120px 0px 135px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.header{
   position: relative;
@@ -279,7 +279,7 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section{
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view{
   width: 100%;
   overflow: hidden;
-  height: 400px;
+  height: 460px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup{
   width: 200%;
