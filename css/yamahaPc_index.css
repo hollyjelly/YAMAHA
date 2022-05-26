@@ -310,16 +310,17 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.ar
   margin: 25px 0px;
   box-shadow: 4px 4px 8px #222;
   color: transparent;
+  width: 100%;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a1>div.image.i1{
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../image/main/pianist01.png');
   background-color: #301B3F;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a2>div.image.i2{
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../image/main/pianist02.png');

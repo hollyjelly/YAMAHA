@@ -38,7 +38,7 @@ $(function(){
         
         gr.css({marginLeft:'-33.33%'});
         
-        if(window.innerWidth > 420){
+        if(window.innerWidth > 1024){
             btn.first().click(function(){
 
 
@@ -128,6 +128,97 @@ $(function(){
             mnbar.eq(0).click(function(){
                 mn.css({width:'0'});
             });
+
+        }else if(window.innerWidth <= 1024 && window.innerWidth > 420){
+
+
+            gray.css({filter:'grayscale(0)'})
+            gr.css({marginLeft:'-50.33%'});
+
+            btn.first().click(function(){
+
+
+                gr.stop().animate({
+            
+                    marginLeft : '-100%'
+                    
+                },500,function(){
+            
+                    gr.find('.article:first').appendTo(gr);
+                    gr.css({marginLeft:'-50.33%'});
+            
+            
+                });
+            
+            });
+            
+            btn.eq(1).click(function(){
+            
+            
+                gr.stop().animate({
+            
+                    marginLeft : '0%'
+                    
+                },500,function(){
+            
+                    gr.find('.article:last').prependTo(gr);
+                    gr.css({marginLeft:'-50.33%'});
+            
+            
+                });
+
+                hdbar.eq(0).click(function(){
+                    mn.css({width:'100vw'});
+                });
+    
+                mnbar.eq(0).click(function(){
+                    mn.css({width:'0'});
+                });
+            
+            });
+            
+            // 컨텐츠3
+            
+            
+            
+            
+            
+            gr3.css({marginLeft:'-50%'})
+            
+            btn3.first().click(function(){
+            
+            
+                gr3.stop().animate({
+            
+                    marginLeft : '-100%'
+                    
+                },500,function(){
+            
+                    gr3.find('.article:first').appendTo(gr3);
+                    gr3.css({marginLeft:'-50%'});
+            
+            
+                });
+            
+            });
+            
+            btn3.eq(1).click(function(){
+            
+            
+                gr3.stop().animate({
+            
+                    marginLeft : '0%'
+                    
+                },500,function(){
+            
+                    gr3.find('.article:last').prependTo(gr3);
+                    gr3.css({marginLeft:'-50%'});
+            
+            
+                });
+            
+            });
+            
 
         }else{
 
