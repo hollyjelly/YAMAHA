@@ -98,8 +98,8 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.imageGr{
     margin-top: 120px;
 }
 /* 컨텐츠 2*/
-div.cntWrap>div.content.cnt02{
-    padding: 40px 0px 120px;
+div.cntWrap.cntWrap02>div.content.cnt02{
+    padding: 70px 0px 120px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.header{
     height: 40px;
@@ -109,6 +109,7 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.header>h2{
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section{
     margin-top: 40px;
+    height: 300px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.article{
     width: calc(100% / 3 - 20px);
@@ -122,11 +123,12 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.article:nth-child(3){
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup{
     width: 300%;
 }
-div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.article>div.image{
-    height: 320px;
+div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article>div.image{
+    height: 280px;
+    width: 80%;
 }
-div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.article>div.texts{
-    margin-top: -380px;
+div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article>div.texts{
+    margin-top: -330px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>ul.paging{
     width: 13%;
