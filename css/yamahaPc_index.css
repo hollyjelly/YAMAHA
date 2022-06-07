@@ -279,7 +279,6 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section{
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view{
   width: 100%;
   overflow: hidden;
-  height: 460px;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup{
   width: 200%;
@@ -295,6 +294,7 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.ar
   margin: 0 10px;
   border-top: 4px solid rgb(58, 40, 40);
   border-radius: 30px;
+  box-shadow: 4px 4px 8px #222;
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a2{
   margin-top: 40px;
@@ -307,8 +307,7 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.ar
 }
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article>div.image{
   height: 380px;
-  margin: 25px 0px;
-  box-shadow: 4px 4px 8px #222;
+  margin-top: 25px;
   color: transparent;
   width: 100%;
 }

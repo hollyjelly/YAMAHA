@@ -168,6 +168,7 @@ div.bnrWrap>div.banner>div.play>video{
 }
 div.bnrWrap>div.banner>div.play::after{
   font-size: 20px;
+  bottom: 20px;
 }
 /* 푸터*/
 div.ftrWrap>div.footer{

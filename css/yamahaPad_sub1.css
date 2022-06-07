@@ -143,7 +143,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)>div.images>di
     writing-mode: vertical-rl;
     color: #3b415b;
     font-style: italic;
-    text-shadow: 2px 2px 4px #666;
+    text-shadow: 2px 2px 1px #999;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-last-child(1)>div.images>div.image::before{
     content: 'value';
@@ -156,7 +156,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article:nth-last-child(1)>div.imag
     writing-mode: vertical-rl;
     color: #3b415b;
     font-style: italic;
-    text-shadow: 2px 2px 4px #666;
+    text-shadow: 2px 2px 1px #999;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.images>div.image{
     height: 400px;
@@ -277,7 +277,7 @@ div.bnrWrap>div.banner>div.play{
     height: 500px;
 }
 div.bnrWrap>div.banner>div.play::after{
-    bottom: 80px;
+    bottom: 60px;
 }
 div.bnrWrap>div.banner>div.play>video{
     height: 500px;
