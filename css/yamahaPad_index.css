@@ -123,6 +123,15 @@ div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.article:nth-child(3){
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup{
     width: 300%;
 }
+div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a2{
+    margin-top: 0;
+}
+div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a4{
+    margin-top: 0;
+}
+div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article.a6{
+    margin-top: 0;
+}
 div.cntWrap.cntWrap02>div.content.cnt02>div.section>div.view>div.artGroup>div.article>div.image{
     height: 280px;
     width: 80%;
